@@ -50,6 +50,13 @@ eksctl create cluster --name psait-cluster4 --region us-east-1 --node-type t2.me
 `
 eksctl create cluster --name psait-cluster4 --region ap-south-1 --node-type t2.medium  --zones ap-south-1a,ap-south-1b
 `
+## Europe <br/>
+
+```
+eksctl create cluster --name psait-cluster1 --region eu-north-1 --node-type t3.medium --zones eu-north-1a,eu-north-1b
+
+
+```
 
 ## After cluster created we can check nodes using below command.
 
@@ -65,4 +72,9 @@ eksctl create cluster --name psait-cluster4 --region ap-south-1 --node-type t2.m
 
 ```
 eksctl delete cluster --name psait-cluster4 --region ap-south-1
+```
+# my version 
+```
+eksctl delete cluster --name psait-cluster4 --region eu-north-1
+
 ```
